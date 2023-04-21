@@ -22,7 +22,7 @@
     />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
-    <title>Tech-Wolrd</title>
+    <title>BrainQuest</title>
     
   </head>
 
@@ -47,21 +47,21 @@
           <ul class=" navbar-nav  " >
             <!-- <ul class="nav justify-content-end"> -->
             <li class="nav-item active">
-              <a class="nav-link" href="/Tech-World/"
+              <a class="nav-link" href="/BrainQuest/"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             
             <li class="nav-item">
-                <a class="nav-link" href="/Tech-World/freeCourse.html">Free Courses</a>
+                <a class="nav-link" href="/BrainQuest/freeclasses.html">Free Courses</a>
               </li>
   
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Tech-World/programminghub.html">Programming Hub</a>
+                <a class="nav-link" href="/BrainQuest/programminghub.html">Programming Hub</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Tech-World/Ebook.html">E-Books</a>
+                <a class="nav-link" href="/BrainQuest/elibrary.html">E-library</a>
               </li>
             </li>
               
@@ -71,15 +71,14 @@
     </nav>
 
     <!-- Banner image start -->
-    
-<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
           
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="image/FreeCourseSlider1.png" class="d-block w-100" alt="...">
+                  <img src="image/Program-slider1.png" class="d-block w-100" alt="...">
                   <div class="carousel-caption d-none d-md-block ">
-                    <h2 style="color: yellow; font-weight: 900;">Welcome to Tech-World</h2>
-          <p style="font-size: 25px;">Free Course Coupons</p>
+                    <h2 style="color: black; font-weight: 900;">Welcome to Brain Quest</h2>
+                    <p style="font-size: 25px;">Download Free Programs</p>
                       
                   </div>
               </div>
@@ -97,23 +96,63 @@
         <!-- Blog Entries Column -->
         <div class="col-md-8">
       <!-- Blog Post -->
+
       <div class="card mb-4">
-        
-                   <div class="card-body">
-                     <h4 class="card-title" style="font-size: 19px;">Python For Data Science</h4>
-                        <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
+   <!-- <img class="card-img-top" src="image/slider.png" alt="Jasprit Bumrah ruled out of England T20I series due to injury"> -->
+        <div class="card-body">
+          <h3 class="card-title" style="font-size: 19px;">write a java program of Addition of two numbers</h3>
+       <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
               
-                     <a href="course_details.html" class="btn btn-primary btn-sm">Read More &rarr;</a>
-                   </div>
-                   <div class="card-footer text-muted">
-                     Posted on <?php echo htmlentities($row['postingdate']);?>
-                  
-                   </div>
+          <a href="program_details.html" class="btn btn-primary btn-sm">Read More →</a>
+        </div>
+        <div class="card-footer text-muted">
+              Posted on <?php echo htmlentities($row['postingdate']);?>
+           
+            </div>
+      </div>
+      <div class="card mb-4">
+        <!-- <img class="card-img-top" src="image/slider.png" alt="Jasprit Bumrah ruled out of England T20I series due to injury"> -->
+             <div class="card-body">
+               <h3 class="card-title" style="font-size: 19px;">write a java program of Addition of two numbers</h3>
+            <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
+              
+               <a href="program_details.html" class="btn btn-primary btn-sm">Read More →</a>
+             </div>
+             <div class="card-footer text-muted">
+              Posted on <?php echo htmlentities($row['postingdate']);?>
+           
+            </div>
+           </div>
+           <div class="card mb-4">
+            <!-- <img class="card-img-top" src="image/slider.png" alt="Jasprit Bumrah ruled out of England T20I series due to injury"> -->
+                 <div class="card-body">
+                   <h3 class="card-title" style="font-size: 19px;">write a java program Display string.</h3>
+                <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
+              
+                   <a href="program_details.html" class="btn btn-primary btn-sm">Read More →</a>
                  </div>
-      
-           <!-- Pagination -->
-      
-              <div class="container pagedemo">
+                 <div class="card-footer text-muted">
+              Posted on <?php echo htmlentities($row['postingdate']);?>
+           
+            </div>
+               </div>
+               <div class="card mb-4">
+                <!-- <img class="card-img-top" src="image/slider.png" alt="Jasprit Bumrah ruled out of England T20I series due to injury"> -->
+                     <div class="card-body">
+                       <h3 class="card-title" style="font-size: 19px;">write a Python program of Addition of two numbers</h3>
+                    <p><b>Category : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
+              
+                       <a href="program_details.html" class="btn btn-primary btn-sm">Read More →</a>
+                     </div>
+                     <div class="card-footer text-muted">
+              Posted on <?php echo htmlentities($row['postingdate']);?>
+           
+            </div>
+                   </div>
+
+
+      <!-- Pagination -->
+           <div class="container pagedemo">
                         <ul class="pagination justify-content-center mb-4 ">
                             <li class="page-item"><a href="?pageno=1" class="page-link">First</a></li>
                             <li class="disabled page-item">
@@ -125,7 +164,6 @@
                             <li class="page-item"><a href="?pageno=1" class="page-link">Last</a></li>
                         </ul>
                     </div>
-
 
     </div>
     <!-- Blog Entries Column end-->
@@ -150,6 +188,7 @@
                         </div>
                     </div>
                 </div>
+                   <!-- Categories Widget start-->
                 <div class="card mb-4 demo">
                     <h5 class="card-header">Categories</h5>
                     <div class="card-body">
@@ -170,14 +209,16 @@
                         </div>
                     </div>
                 </div>
-                <!-- Categories Widget -->
+                <!-- Categories Widget end-->
+
+
             </div>
         </div>
     </div>
 
     <!--  Card layout end -->
 
-  <!-- Back to top button start-->
+      <!-- Back to top button start-->
 <button
         type="button"
         class="btn btn-danger btn-floating btn-lg"
@@ -187,31 +228,31 @@
 </button>
 <!-- Back to top button end-->
 
-  
+      
 <!-- footer start -->
 <div>
     <footer class="footer">
         <div class="container">
           <div class="row">
             <div class="footer-col">
-              <h4>Tech-World</h4>
+              <h4>BrainQuest</h4>
               <ul>
-                <li><a href="index.html">home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#">Our Services</a></li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>Our Project Guide</h4>
               <ul>
-                <li><a href="#">Mr Niraj Haval</a></li>
-                <li><a href="#">havalniraj@gmail.com</a></li>
+                <li><a href="#">Esther Muthui</a></li>
+                <li><a href="#">estarmalkia@gmail.com</a></li>
               </ul>
             </div>
             <div class="footer-col">
               <h4>Our College</h4>
               <ul>
                 <li><a href="#">DYPCET</a></li>
-                <li><a href="#">Phone: 0231 260 1433</a></li>
+                <li><a href="#">Phone: +254712981454</a></li>
               </ul>
             </div>
             <div class="footer-col">
@@ -247,7 +288,7 @@
       crossorigin="anonymous"
     ></script>
 
-  <script src="js/style.js"></script>
+      <script src="js/style.js"></script>
     
   </body>
 </html>
