@@ -11,9 +11,9 @@
   margin-left: auto;
 }
 ul li a {
-  color: white !important;
+  color: magenta !important;
   /* font-weight: bold; */
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.5s ease-in;
@@ -24,7 +24,7 @@ ul li a:hover {
   font-size: 19px;
 }
 .navbar-toggle {
-  border: 1px solid white !important;
+  border: 1px solid blue !important;
   transition: all 0.5s ease-in;
 }
 .navbar-toggle:hover {
